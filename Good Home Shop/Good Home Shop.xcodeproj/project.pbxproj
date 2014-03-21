@@ -1,0 +1,835 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8C1CF18618D4D741007AB041 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8C1CF18518D4D741007AB041 /* Foundation.framework */; };
+		8C1CF18818D4D741007AB041 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8C1CF18718D4D741007AB041 /* CoreGraphics.framework */; };
+		8C1CF18A18D4D741007AB041 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8C1CF18918D4D741007AB041 /* UIKit.framework */; };
+		8C1CF19018D4D742007AB041 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8C1CF18E18D4D742007AB041 /* InfoPlist.strings */; };
+		8C1CF19218D4D742007AB041 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C1CF19118D4D742007AB041 /* main.m */; };
+		8C1CF1A518D4D746007AB041 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8C1CF1A418D4D746007AB041 /* XCTest.framework */; };
+		8C1CF1A618D4D746007AB041 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8C1CF18518D4D741007AB041 /* Foundation.framework */; };
+		8C1CF1A718D4D746007AB041 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8C1CF18918D4D741007AB041 /* UIKit.framework */; };
+		8C1CF1AF18D4D747007AB041 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8C1CF1AD18D4D747007AB041 /* InfoPlist.strings */; };
+		8C1CF1B118D4D747007AB041 /* Good_Home_ShopTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C1CF1B018D4D747007AB041 /* Good_Home_ShopTests.m */; };
+		8C1CF1C318D4DA21007AB041 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C1CF1BE18D4DA21007AB041 /* AppDelegate.m */; };
+		8C1CF1F518D4F3EA007AB041 /* CartDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C1CF1E718D4F3EA007AB041 /* CartDetailViewController.m */; };
+		8C1CF1F618D4F3EA007AB041 /* CartDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8C1CF1E818D4F3EA007AB041 /* CartDetailViewController.xib */; };
+		8C1CF1F718D4F3EA007AB041 /* CategoryListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C1CF1EB18D4F3EA007AB041 /* CategoryListViewController.m */; };
+		8C1CF1F818D4F3EA007AB041 /* CategoryListViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8C1CF1EC18D4F3EA007AB041 /* CategoryListViewController.xib */; };
+		8C1CF1F918D4F3EA007AB041 /* MainTabBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C1CF1EF18D4F3EA007AB041 /* MainTabBarViewController.m */; };
+		8C1CF1FA18D4F3EA007AB041 /* MainTabBarViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8C1CF1F018D4F3EA007AB041 /* MainTabBarViewController.xib */; };
+		8C1CF1FB18D4F3EA007AB041 /* ProductDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C1CF1F318D4F3EA007AB041 /* ProductDetailViewController.m */; };
+		8C1CF1FC18D4F3EA007AB041 /* ProductDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8C1CF1F418D4F3EA007AB041 /* ProductDetailViewController.xib */; };
+		8C1CF20018D58C49007AB041 /* Product_Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8C1CF1FF18D58C49007AB041 /* Product_Info.plist */; };
+		8C1CF22518D5A1E7007AB041 /* Utility.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C1CF22418D5A1E7007AB041 /* Utility.m */; };
+		8C40DB6018D7856A00555039 /* HomeShop.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 8C40DB5E18D7856A00555039 /* HomeShop.xcdatamodeld */; };
+		8C40DB6218D7870C00555039 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8C40DB6118D7870C00555039 /* CoreData.framework */; };
+		8C40DB6818D788D900555039 /* CartModelManger.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C40DB6718D788D900555039 /* CartModelManger.m */; };
+		8C40DB7418DA109F00555039 /* deleteButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 8C40DB7318DA109F00555039 /* deleteButton.png */; };
+		8C40DB7718DA355A00555039 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 8C40DB7618DA355A00555039 /* icon.png */; };
+		AB24D9ED18DAB4FE0041C0D8 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AB24D9EA18DAB4FE0041C0D8 /* Default-568h@2x.png */; };
+		AB24D9EE18DAB4FE0041C0D8 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = AB24D9EB18DAB4FE0041C0D8 /* Default.png */; };
+		AB24D9EF18DAB4FE0041C0D8 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AB24D9EC18DAB4FE0041C0D8 /* Default@2x.png */; };
+		ABC86B1718D80FAE00FB682C /* centre_table.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ABC86B0418D80FAE00FB682C /* centre_table.jpg */; };
+		ABC86B1818D80FAE00FB682C /* dinning_Table.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ABC86B0518D80FAE00FB682C /* dinning_Table.jpg */; };
+		ABC86B1918D80FAE00FB682C /* dyson_vaccumC.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ABC86B0618D80FAE00FB682C /* dyson_vaccumC.jpg */; };
+		ABC86B1A18D80FAE00FB682C /* eureka_VaccumC.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ABC86B0718D80FAE00FB682C /* eureka_VaccumC.jpg */; };
+		ABC86B1B18D80FAE00FB682C /* finetel_TV.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ABC86B0818D80FAE00FB682C /* finetel_TV.jpg */; };
+		ABC86B1C18D80FAE00FB682C /* lg_TV.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ABC86B0918D80FAE00FB682C /* lg_TV.jpg */; };
+		ABC86B1D18D80FAE00FB682C /* lgmicrowave.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ABC86B0A18D80FAE00FB682C /* lgmicrowave.jpg */; };
+		ABC86B1E18D80FAE00FB682C /* office_Chair.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ABC86B0B18D80FAE00FB682C /* office_Chair.jpg */; };
+		ABC86B1F18D80FAE00FB682C /* panasonic_vacuumC.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ABC86B0C18D80FAE00FB682C /* panasonic_vacuumC.jpg */; };
+		ABC86B2018D80FAE00FB682C /* sharp_TV.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ABC86B0D18D80FAE00FB682C /* sharp_TV.jpg */; };
+		ABC86B2118D80FAE00FB682C /* steel_Almirah.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ABC86B0E18D80FAE00FB682C /* steel_Almirah.jpg */; };
+		ABC86B2218D80FAE00FB682C /* steel_chair.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ABC86B0F18D80FAE00FB682C /* steel_chair.jpg */; };
+		ABC86B2318D80FAE00FB682C /* study_table.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ABC86B1018D80FAE00FB682C /* study_table.jpg */; };
+		ABC86B2418D80FAE00FB682C /* threedoor_Almirah.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ABC86B1118D80FAE00FB682C /* threedoor_Almirah.jpg */; };
+		ABC86B2518D80FAE00FB682C /* wooden_Almirah.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ABC86B1218D80FAE00FB682C /* wooden_Almirah.jpg */; };
+		ABC86B2618D80FAE00FB682C /* wooden_Chair.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ABC86B1318D80FAE00FB682C /* wooden_Chair.jpg */; };
+		ABC86B2718D80FAE00FB682C /* downArrowBlack.png in Resources */ = {isa = PBXBuildFile; fileRef = ABC86B1518D80FAE00FB682C /* downArrowBlack.png */; };
+		ABC86B2818D80FAE00FB682C /* upArrowBlack.png in Resources */ = {isa = PBXBuildFile; fileRef = ABC86B1618D80FAE00FB682C /* upArrowBlack.png */; };
+		ABCE2BD718D8554F00517526 /* homebanner.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ABCE2BD618D8554F00517526 /* homebanner.jpg */; };
+		ABCE2BDC18D85AF800517526 /* cart.png in Resources */ = {isa = PBXBuildFile; fileRef = ABCE2BD818D85AF800517526 /* cart.png */; };
+		ABCE2BDD18D85AF800517526 /* cart@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = ABCE2BD918D85AF800517526 /* cart@2x.png */; };
+		ABCE2BDE18D85AF800517526 /* menu.png in Resources */ = {isa = PBXBuildFile; fileRef = ABCE2BDA18D85AF800517526 /* menu.png */; };
+		ABCE2BDF18D85AF800517526 /* menu@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = ABCE2BDB18D85AF800517526 /* menu@2x.png */; };
+		ABCE2BE118D86E8000517526 /* addToCart.png in Resources */ = {isa = PBXBuildFile; fileRef = ABCE2BE018D86E8000517526 /* addToCart.png */; };
+		ABCE2BF218D9D0EC00517526 /* Cart.m in Sources */ = {isa = PBXBuildFile; fileRef = ABCE2BF118D9D0EC00517526 /* Cart.m */; };
+		ABCE2BF618D9DD5600517526 /* CartBillingCustomCell.m in Sources */ = {isa = PBXBuildFile; fileRef = ABCE2BF418D9DD5600517526 /* CartBillingCustomCell.m */; };
+		ABCE2BF718D9DD5600517526 /* CartBillingCustomCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = ABCE2BF518D9DD5600517526 /* CartBillingCustomCell.xib */; };
+		ABCE2BFA18D9DE5800517526 /* RaSymbol.png in Resources */ = {isa = PBXBuildFile; fileRef = ABCE2BF818D9DE5800517526 /* RaSymbol.png */; };
+		ABCE2BFB18D9DE5800517526 /* RaSymbolWhite.png in Resources */ = {isa = PBXBuildFile; fileRef = ABCE2BF918D9DE5800517526 /* RaSymbolWhite.png */; };
+		ABCE2BFF18D9E30600517526 /* CartOrderDetailCustomCell.m in Sources */ = {isa = PBXBuildFile; fileRef = ABCE2BFD18D9E30600517526 /* CartOrderDetailCustomCell.m */; };
+		ABCE2C0018D9E30600517526 /* CartOrderDetailCustomCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = ABCE2BFE18D9E30600517526 /* CartOrderDetailCustomCell.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8C1CF1A818D4D746007AB041 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8C1CF17A18D4D741007AB041 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8C1CF18118D4D741007AB041;
+			remoteInfo = "Good Home Shop";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8C1CF18218D4D741007AB041 /* Good Home Shop.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Good Home Shop.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8C1CF18518D4D741007AB041 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		8C1CF18718D4D741007AB041 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		8C1CF18918D4D741007AB041 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		8C1CF18D18D4D742007AB041 /* Good Home Shop-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Good Home Shop-Info.plist"; sourceTree = "<group>"; };
+		8C1CF18F18D4D742007AB041 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		8C1CF19118D4D742007AB041 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8C1CF19318D4D742007AB041 /* Good Home Shop-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Good Home Shop-Prefix.pch"; sourceTree = "<group>"; };
+		8C1CF1A318D4D746007AB041 /* Good Home ShopTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Good Home ShopTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8C1CF1A418D4D746007AB041 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		8C1CF1AC18D4D747007AB041 /* Good Home ShopTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Good Home ShopTests-Info.plist"; sourceTree = "<group>"; };
+		8C1CF1AE18D4D747007AB041 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		8C1CF1B018D4D747007AB041 /* Good_Home_ShopTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Good_Home_ShopTests.m; sourceTree = "<group>"; };
+		8C1CF1BD18D4DA21007AB041 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		8C1CF1BE18D4DA21007AB041 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		8C1CF1E618D4F3EA007AB041 /* CartDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CartDetailViewController.h; sourceTree = "<group>"; };
+		8C1CF1E718D4F3EA007AB041 /* CartDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CartDetailViewController.m; sourceTree = "<group>"; };
+		8C1CF1E818D4F3EA007AB041 /* CartDetailViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CartDetailViewController.xib; sourceTree = "<group>"; };
+		8C1CF1EA18D4F3EA007AB041 /* CategoryListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CategoryListViewController.h; sourceTree = "<group>"; };
+		8C1CF1EB18D4F3EA007AB041 /* CategoryListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CategoryListViewController.m; sourceTree = "<group>"; };
+		8C1CF1EC18D4F3EA007AB041 /* CategoryListViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CategoryListViewController.xib; sourceTree = "<group>"; };
+		8C1CF1EE18D4F3EA007AB041 /* MainTabBarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainTabBarViewController.h; sourceTree = "<group>"; };
+		8C1CF1EF18D4F3EA007AB041 /* MainTabBarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainTabBarViewController.m; sourceTree = "<group>"; };
+		8C1CF1F018D4F3EA007AB041 /* MainTabBarViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainTabBarViewController.xib; sourceTree = "<group>"; };
+		8C1CF1F218D4F3EA007AB041 /* ProductDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProductDetailViewController.h; sourceTree = "<group>"; };
+		8C1CF1F318D4F3EA007AB041 /* ProductDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 1; path = ProductDetailViewController.m; sourceTree = "<group>"; };
+		8C1CF1F418D4F3EA007AB041 /* ProductDetailViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ProductDetailViewController.xib; sourceTree = "<group>"; };
+		8C1CF1FF18D58C49007AB041 /* Product_Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Product_Info.plist; sourceTree = "<group>"; };
+		8C1CF22318D5A1E7007AB041 /* Utility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Utility.h; sourceTree = "<group>"; };
+		8C1CF22418D5A1E7007AB041 /* Utility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Utility.m; sourceTree = "<group>"; };
+		8C40DB5F18D7856A00555039 /* HomeShop.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = HomeShop.xcdatamodel; sourceTree = "<group>"; };
+		8C40DB6118D7870C00555039 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		8C40DB6618D788D900555039 /* CartModelManger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CartModelManger.h; sourceTree = "<group>"; };
+		8C40DB6718D788D900555039 /* CartModelManger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CartModelManger.m; sourceTree = "<group>"; };
+		8C40DB7318DA109F00555039 /* deleteButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = deleteButton.png; sourceTree = "<group>"; };
+		8C40DB7618DA355A00555039 /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = icon.png; path = "Good Home Shop/Resources/icon.png"; sourceTree = SOURCE_ROOT; };
+		AB24D9EA18DAB4FE0041C0D8 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		AB24D9EB18DAB4FE0041C0D8 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		AB24D9EC18DAB4FE0041C0D8 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		ABC86B0418D80FAE00FB682C /* centre_table.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = centre_table.jpg; sourceTree = "<group>"; };
+		ABC86B0518D80FAE00FB682C /* dinning_Table.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = dinning_Table.jpg; sourceTree = "<group>"; };
+		ABC86B0618D80FAE00FB682C /* dyson_vaccumC.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = dyson_vaccumC.jpg; sourceTree = "<group>"; };
+		ABC86B0718D80FAE00FB682C /* eureka_VaccumC.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = eureka_VaccumC.jpg; sourceTree = "<group>"; };
+		ABC86B0818D80FAE00FB682C /* finetel_TV.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = finetel_TV.jpg; sourceTree = "<group>"; };
+		ABC86B0918D80FAE00FB682C /* lg_TV.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = lg_TV.jpg; sourceTree = "<group>"; };
+		ABC86B0A18D80FAE00FB682C /* lgmicrowave.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = lgmicrowave.jpg; sourceTree = "<group>"; };
+		ABC86B0B18D80FAE00FB682C /* office_Chair.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = office_Chair.jpg; sourceTree = "<group>"; };
+		ABC86B0C18D80FAE00FB682C /* panasonic_vacuumC.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = panasonic_vacuumC.jpg; sourceTree = "<group>"; };
+		ABC86B0D18D80FAE00FB682C /* sharp_TV.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = sharp_TV.jpg; sourceTree = "<group>"; };
+		ABC86B0E18D80FAE00FB682C /* steel_Almirah.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = steel_Almirah.jpg; sourceTree = "<group>"; };
+		ABC86B0F18D80FAE00FB682C /* steel_chair.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = steel_chair.jpg; sourceTree = "<group>"; };
+		ABC86B1018D80FAE00FB682C /* study_table.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = study_table.jpg; sourceTree = "<group>"; };
+		ABC86B1118D80FAE00FB682C /* threedoor_Almirah.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = threedoor_Almirah.jpg; sourceTree = "<group>"; };
+		ABC86B1218D80FAE00FB682C /* wooden_Almirah.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = wooden_Almirah.jpg; sourceTree = "<group>"; };
+		ABC86B1318D80FAE00FB682C /* wooden_Chair.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = wooden_Chair.jpg; sourceTree = "<group>"; };
+		ABC86B1518D80FAE00FB682C /* downArrowBlack.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = downArrowBlack.png; sourceTree = "<group>"; };
+		ABC86B1618D80FAE00FB682C /* upArrowBlack.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = upArrowBlack.png; sourceTree = "<group>"; };
+		ABCE2BD618D8554F00517526 /* homebanner.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = homebanner.jpg; sourceTree = "<group>"; };
+		ABCE2BD818D85AF800517526 /* cart.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cart.png; sourceTree = "<group>"; };
+		ABCE2BD918D85AF800517526 /* cart@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "cart@2x.png"; sourceTree = "<group>"; };
+		ABCE2BDA18D85AF800517526 /* menu.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = menu.png; sourceTree = "<group>"; };
+		ABCE2BDB18D85AF800517526 /* menu@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "menu@2x.png"; sourceTree = "<group>"; };
+		ABCE2BE018D86E8000517526 /* addToCart.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = addToCart.png; sourceTree = "<group>"; };
+		ABCE2BF018D9D0EC00517526 /* Cart.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Cart.h; sourceTree = "<group>"; };
+		ABCE2BF118D9D0EC00517526 /* Cart.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Cart.m; sourceTree = "<group>"; };
+		ABCE2BF318D9DD5600517526 /* CartBillingCustomCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CartBillingCustomCell.h; sourceTree = "<group>"; };
+		ABCE2BF418D9DD5600517526 /* CartBillingCustomCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CartBillingCustomCell.m; sourceTree = "<group>"; };
+		ABCE2BF518D9DD5600517526 /* CartBillingCustomCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CartBillingCustomCell.xib; sourceTree = "<group>"; };
+		ABCE2BF818D9DE5800517526 /* RaSymbol.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = RaSymbol.png; sourceTree = "<group>"; };
+		ABCE2BF918D9DE5800517526 /* RaSymbolWhite.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = RaSymbolWhite.png; sourceTree = "<group>"; };
+		ABCE2BFC18D9E30600517526 /* CartOrderDetailCustomCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CartOrderDetailCustomCell.h; sourceTree = "<group>"; };
+		ABCE2BFD18D9E30600517526 /* CartOrderDetailCustomCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CartOrderDetailCustomCell.m; sourceTree = "<group>"; };
+		ABCE2BFE18D9E30600517526 /* CartOrderDetailCustomCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CartOrderDetailCustomCell.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8C1CF17F18D4D741007AB041 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C40DB6218D7870C00555039 /* CoreData.framework in Frameworks */,
+				8C1CF18818D4D741007AB041 /* CoreGraphics.framework in Frameworks */,
+				8C1CF18A18D4D741007AB041 /* UIKit.framework in Frameworks */,
+				8C1CF18618D4D741007AB041 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C1CF1A018D4D746007AB041 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C1CF1A518D4D746007AB041 /* XCTest.framework in Frameworks */,
+				8C1CF1A718D4D746007AB041 /* UIKit.framework in Frameworks */,
+				8C1CF1A618D4D746007AB041 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8C1CF17918D4D741007AB041 = {
+			isa = PBXGroup;
+			children = (
+				8C1CF18B18D4D741007AB041 /* Good Home Shop */,
+				8C1CF1AA18D4D746007AB041 /* Good Home ShopTests */,
+				8C1CF18418D4D741007AB041 /* Frameworks */,
+				8C1CF18318D4D741007AB041 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8C1CF18318D4D741007AB041 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8C1CF18218D4D741007AB041 /* Good Home Shop.app */,
+				8C1CF1A318D4D746007AB041 /* Good Home ShopTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8C1CF18418D4D741007AB041 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8C40DB6118D7870C00555039 /* CoreData.framework */,
+				8C1CF18518D4D741007AB041 /* Foundation.framework */,
+				8C1CF18718D4D741007AB041 /* CoreGraphics.framework */,
+				8C1CF18918D4D741007AB041 /* UIKit.framework */,
+				8C1CF1A418D4D746007AB041 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8C1CF18B18D4D741007AB041 /* Good Home Shop */ = {
+			isa = PBXGroup;
+			children = (
+				8C1CF1BC18D4DA21007AB041 /* AppDelegate */,
+				8C1CF1E318D4F3EA007AB041 /* Classes */,
+				8C1CF18C18D4D742007AB041 /* Supporting Files */,
+			);
+			path = "Good Home Shop";
+			sourceTree = "<group>";
+		};
+		8C1CF18C18D4D742007AB041 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8C1CF1FD18D5879C007AB041 /* Resources */,
+				8C1CF18D18D4D742007AB041 /* Good Home Shop-Info.plist */,
+				8C1CF18E18D4D742007AB041 /* InfoPlist.strings */,
+				8C1CF19118D4D742007AB041 /* main.m */,
+				8C1CF19318D4D742007AB041 /* Good Home Shop-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8C1CF1AA18D4D746007AB041 /* Good Home ShopTests */ = {
+			isa = PBXGroup;
+			children = (
+				8C1CF1B018D4D747007AB041 /* Good_Home_ShopTests.m */,
+				8C1CF1AB18D4D747007AB041 /* Supporting Files */,
+			);
+			path = "Good Home ShopTests";
+			sourceTree = "<group>";
+		};
+		8C1CF1AB18D4D747007AB041 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8C1CF1AC18D4D747007AB041 /* Good Home ShopTests-Info.plist */,
+				8C1CF1AD18D4D747007AB041 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8C1CF1BC18D4DA21007AB041 /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				8C1CF1BD18D4DA21007AB041 /* AppDelegate.h */,
+				8C1CF1BE18D4DA21007AB041 /* AppDelegate.m */,
+			);
+			path = AppDelegate;
+			sourceTree = "<group>";
+		};
+		8C1CF1E318D4F3EA007AB041 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				8C40DB5B18D7851900555039 /* BussinessLogic */,
+				8C1CF22118D5A1B7007AB041 /* Helper */,
+				8C1CF1E418D4F3EA007AB041 /* ViewController */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		8C1CF1E418D4F3EA007AB041 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				8C1CF1ED18D4F3EA007AB041 /* MainTabBarViewController */,
+				8C1CF1E518D4F3EA007AB041 /* CartDetailView */,
+				8C1CF1E918D4F3EA007AB041 /* CategoryListView */,
+				8C1CF1F118D4F3EA007AB041 /* ProductDetailView */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		8C1CF1E518D4F3EA007AB041 /* CartDetailView */ = {
+			isa = PBXGroup;
+			children = (
+				8C1CF1E618D4F3EA007AB041 /* CartDetailViewController.h */,
+				8C1CF1E718D4F3EA007AB041 /* CartDetailViewController.m */,
+				8C1CF1E818D4F3EA007AB041 /* CartDetailViewController.xib */,
+				ABCE2BFC18D9E30600517526 /* CartOrderDetailCustomCell.h */,
+				ABCE2BFD18D9E30600517526 /* CartOrderDetailCustomCell.m */,
+				ABCE2BFE18D9E30600517526 /* CartOrderDetailCustomCell.xib */,
+				ABCE2BF318D9DD5600517526 /* CartBillingCustomCell.h */,
+				ABCE2BF418D9DD5600517526 /* CartBillingCustomCell.m */,
+				ABCE2BF518D9DD5600517526 /* CartBillingCustomCell.xib */,
+			);
+			path = CartDetailView;
+			sourceTree = "<group>";
+		};
+		8C1CF1E918D4F3EA007AB041 /* CategoryListView */ = {
+			isa = PBXGroup;
+			children = (
+				8C1CF1EA18D4F3EA007AB041 /* CategoryListViewController.h */,
+				8C1CF1EB18D4F3EA007AB041 /* CategoryListViewController.m */,
+				8C1CF1EC18D4F3EA007AB041 /* CategoryListViewController.xib */,
+			);
+			path = CategoryListView;
+			sourceTree = "<group>";
+		};
+		8C1CF1ED18D4F3EA007AB041 /* MainTabBarViewController */ = {
+			isa = PBXGroup;
+			children = (
+				8C1CF1EE18D4F3EA007AB041 /* MainTabBarViewController.h */,
+				8C1CF1EF18D4F3EA007AB041 /* MainTabBarViewController.m */,
+				8C1CF1F018D4F3EA007AB041 /* MainTabBarViewController.xib */,
+			);
+			path = MainTabBarViewController;
+			sourceTree = "<group>";
+		};
+		8C1CF1F118D4F3EA007AB041 /* ProductDetailView */ = {
+			isa = PBXGroup;
+			children = (
+				8C1CF1F218D4F3EA007AB041 /* ProductDetailViewController.h */,
+				8C1CF1F318D4F3EA007AB041 /* ProductDetailViewController.m */,
+				8C1CF1F418D4F3EA007AB041 /* ProductDetailViewController.xib */,
+			);
+			path = ProductDetailView;
+			sourceTree = "<group>";
+		};
+		8C1CF1FD18D5879C007AB041 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				8C1CF1FE18D5879C007AB041 /* Images */,
+				8C1CF1FF18D58C49007AB041 /* Product_Info.plist */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		8C1CF1FE18D5879C007AB041 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				AB24D9E918DAB4FE0041C0D8 /* Spalsh */,
+				ABC86B0318D80FAE00FB682C /* ProductImages */,
+				ABC86B1418D80FAE00FB682C /* UI */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		8C1CF22118D5A1B7007AB041 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				8C1CF22218D5A1CA007AB041 /* Utility */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		8C1CF22218D5A1CA007AB041 /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				8C1CF22318D5A1E7007AB041 /* Utility.h */,
+				8C1CF22418D5A1E7007AB041 /* Utility.m */,
+			);
+			path = Utility;
+			sourceTree = "<group>";
+		};
+		8C40DB5B18D7851900555039 /* BussinessLogic */ = {
+			isa = PBXGroup;
+			children = (
+				8C40DB5C18D7851900555039 /* CoreDataModel */,
+				8C40DB5D18D7851900555039 /* ManagerClass */,
+				8C40DB6C18D8E28200555039 /* ModelClass */,
+			);
+			name = BussinessLogic;
+			path = "Good Home Shop/Classes/BussinessLogic";
+			sourceTree = SOURCE_ROOT;
+		};
+		8C40DB5C18D7851900555039 /* CoreDataModel */ = {
+			isa = PBXGroup;
+			children = (
+				8C40DB5E18D7856A00555039 /* HomeShop.xcdatamodeld */,
+			);
+			path = CoreDataModel;
+			sourceTree = "<group>";
+		};
+		8C40DB5D18D7851900555039 /* ManagerClass */ = {
+			isa = PBXGroup;
+			children = (
+				8C40DB6618D788D900555039 /* CartModelManger.h */,
+				8C40DB6718D788D900555039 /* CartModelManger.m */,
+			);
+			path = ManagerClass;
+			sourceTree = "<group>";
+		};
+		8C40DB6C18D8E28200555039 /* ModelClass */ = {
+			isa = PBXGroup;
+			children = (
+				8C40DB6D18D8E28200555039 /* CartModel */,
+			);
+			path = ModelClass;
+			sourceTree = "<group>";
+		};
+		8C40DB6D18D8E28200555039 /* CartModel */ = {
+			isa = PBXGroup;
+			children = (
+				ABCE2BF018D9D0EC00517526 /* Cart.h */,
+				ABCE2BF118D9D0EC00517526 /* Cart.m */,
+			);
+			path = CartModel;
+			sourceTree = "<group>";
+		};
+		AB24D9E918DAB4FE0041C0D8 /* Spalsh */ = {
+			isa = PBXGroup;
+			children = (
+				AB24D9EA18DAB4FE0041C0D8 /* Default-568h@2x.png */,
+				AB24D9EB18DAB4FE0041C0D8 /* Default.png */,
+				AB24D9EC18DAB4FE0041C0D8 /* Default@2x.png */,
+			);
+			path = Spalsh;
+			sourceTree = "<group>";
+		};
+		ABC86B0318D80FAE00FB682C /* ProductImages */ = {
+			isa = PBXGroup;
+			children = (
+				ABC86B0418D80FAE00FB682C /* centre_table.jpg */,
+				ABC86B0518D80FAE00FB682C /* dinning_Table.jpg */,
+				ABC86B0618D80FAE00FB682C /* dyson_vaccumC.jpg */,
+				ABC86B0718D80FAE00FB682C /* eureka_VaccumC.jpg */,
+				ABC86B0818D80FAE00FB682C /* finetel_TV.jpg */,
+				ABC86B0918D80FAE00FB682C /* lg_TV.jpg */,
+				ABC86B0A18D80FAE00FB682C /* lgmicrowave.jpg */,
+				ABC86B0B18D80FAE00FB682C /* office_Chair.jpg */,
+				ABC86B0C18D80FAE00FB682C /* panasonic_vacuumC.jpg */,
+				ABC86B0D18D80FAE00FB682C /* sharp_TV.jpg */,
+				ABC86B0E18D80FAE00FB682C /* steel_Almirah.jpg */,
+				ABC86B0F18D80FAE00FB682C /* steel_chair.jpg */,
+				ABC86B1018D80FAE00FB682C /* study_table.jpg */,
+				ABC86B1118D80FAE00FB682C /* threedoor_Almirah.jpg */,
+				ABC86B1218D80FAE00FB682C /* wooden_Almirah.jpg */,
+				ABC86B1318D80FAE00FB682C /* wooden_Chair.jpg */,
+			);
+			path = ProductImages;
+			sourceTree = "<group>";
+		};
+		ABC86B1418D80FAE00FB682C /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				8C40DB7618DA355A00555039 /* icon.png */,
+				8C40DB7318DA109F00555039 /* deleteButton.png */,
+				ABCE2BF818D9DE5800517526 /* RaSymbol.png */,
+				ABCE2BF918D9DE5800517526 /* RaSymbolWhite.png */,
+				ABCE2BE018D86E8000517526 /* addToCart.png */,
+				ABCE2BD818D85AF800517526 /* cart.png */,
+				ABCE2BD918D85AF800517526 /* cart@2x.png */,
+				ABCE2BDA18D85AF800517526 /* menu.png */,
+				ABCE2BDB18D85AF800517526 /* menu@2x.png */,
+				ABCE2BD618D8554F00517526 /* homebanner.jpg */,
+				ABC86B1518D80FAE00FB682C /* downArrowBlack.png */,
+				ABC86B1618D80FAE00FB682C /* upArrowBlack.png */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8C1CF18118D4D741007AB041 /* Good Home Shop */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8C1CF1B418D4D747007AB041 /* Build configuration list for PBXNativeTarget "Good Home Shop" */;
+			buildPhases = (
+				8C1CF17E18D4D741007AB041 /* Sources */,
+				8C1CF17F18D4D741007AB041 /* Frameworks */,
+				8C1CF18018D4D741007AB041 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Good Home Shop";
+			productName = "Good Home Shop";
+			productReference = 8C1CF18218D4D741007AB041 /* Good Home Shop.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8C1CF1A218D4D746007AB041 /* Good Home ShopTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8C1CF1B718D4D747007AB041 /* Build configuration list for PBXNativeTarget "Good Home ShopTests" */;
+			buildPhases = (
+				8C1CF19F18D4D746007AB041 /* Sources */,
+				8C1CF1A018D4D746007AB041 /* Frameworks */,
+				8C1CF1A118D4D746007AB041 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8C1CF1A918D4D746007AB041 /* PBXTargetDependency */,
+			);
+			name = "Good Home ShopTests";
+			productName = "Good Home ShopTests";
+			productReference = 8C1CF1A318D4D746007AB041 /* Good Home ShopTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8C1CF17A18D4D741007AB041 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = Aniruddha;
+				TargetAttributes = {
+					8C1CF1A218D4D746007AB041 = {
+						TestTargetID = 8C1CF18118D4D741007AB041;
+					};
+				};
+			};
+			buildConfigurationList = 8C1CF17D18D4D741007AB041 /* Build configuration list for PBXProject "Good Home Shop" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8C1CF17918D4D741007AB041;
+			productRefGroup = 8C1CF18318D4D741007AB041 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8C1CF18118D4D741007AB041 /* Good Home Shop */,
+				8C1CF1A218D4D746007AB041 /* Good Home ShopTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8C1CF18018D4D741007AB041 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABCE2BDE18D85AF800517526 /* menu.png in Resources */,
+				8C1CF1F818D4F3EA007AB041 /* CategoryListViewController.xib in Resources */,
+				8C40DB7418DA109F00555039 /* deleteButton.png in Resources */,
+				AB24D9ED18DAB4FE0041C0D8 /* Default-568h@2x.png in Resources */,
+				ABC86B2618D80FAE00FB682C /* wooden_Chair.jpg in Resources */,
+				ABCE2BDC18D85AF800517526 /* cart.png in Resources */,
+				ABC86B1F18D80FAE00FB682C /* panasonic_vacuumC.jpg in Resources */,
+				8C1CF1FA18D4F3EA007AB041 /* MainTabBarViewController.xib in Resources */,
+				8C1CF1F618D4F3EA007AB041 /* CartDetailViewController.xib in Resources */,
+				ABCE2BDF18D85AF800517526 /* menu@2x.png in Resources */,
+				ABC86B2118D80FAE00FB682C /* steel_Almirah.jpg in Resources */,
+				AB24D9EE18DAB4FE0041C0D8 /* Default.png in Resources */,
+				ABC86B1B18D80FAE00FB682C /* finetel_TV.jpg in Resources */,
+				ABCE2BD718D8554F00517526 /* homebanner.jpg in Resources */,
+				ABCE2BDD18D85AF800517526 /* cart@2x.png in Resources */,
+				ABC86B1A18D80FAE00FB682C /* eureka_VaccumC.jpg in Resources */,
+				8C1CF19018D4D742007AB041 /* InfoPlist.strings in Resources */,
+				ABC86B2418D80FAE00FB682C /* threedoor_Almirah.jpg in Resources */,
+				ABCE2BF718D9DD5600517526 /* CartBillingCustomCell.xib in Resources */,
+				8C1CF20018D58C49007AB041 /* Product_Info.plist in Resources */,
+				ABC86B1D18D80FAE00FB682C /* lgmicrowave.jpg in Resources */,
+				8C1CF1FC18D4F3EA007AB041 /* ProductDetailViewController.xib in Resources */,
+				ABC86B2718D80FAE00FB682C /* downArrowBlack.png in Resources */,
+				ABC86B2018D80FAE00FB682C /* sharp_TV.jpg in Resources */,
+				ABCE2C0018D9E30600517526 /* CartOrderDetailCustomCell.xib in Resources */,
+				ABC86B1718D80FAE00FB682C /* centre_table.jpg in Resources */,
+				ABC86B2218D80FAE00FB682C /* steel_chair.jpg in Resources */,
+				ABCE2BFA18D9DE5800517526 /* RaSymbol.png in Resources */,
+				ABC86B2818D80FAE00FB682C /* upArrowBlack.png in Resources */,
+				ABC86B2318D80FAE00FB682C /* study_table.jpg in Resources */,
+				AB24D9EF18DAB4FE0041C0D8 /* Default@2x.png in Resources */,
+				ABC86B1818D80FAE00FB682C /* dinning_Table.jpg in Resources */,
+				8C40DB7718DA355A00555039 /* icon.png in Resources */,
+				ABC86B1C18D80FAE00FB682C /* lg_TV.jpg in Resources */,
+				ABC86B2518D80FAE00FB682C /* wooden_Almirah.jpg in Resources */,
+				ABCE2BFB18D9DE5800517526 /* RaSymbolWhite.png in Resources */,
+				ABC86B1918D80FAE00FB682C /* dyson_vaccumC.jpg in Resources */,
+				ABCE2BE118D86E8000517526 /* addToCart.png in Resources */,
+				ABC86B1E18D80FAE00FB682C /* office_Chair.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C1CF1A118D4D746007AB041 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C1CF1AF18D4D747007AB041 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8C1CF17E18D4D741007AB041 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C40DB6018D7856A00555039 /* HomeShop.xcdatamodeld in Sources */,
+				ABCE2BF618D9DD5600517526 /* CartBillingCustomCell.m in Sources */,
+				ABCE2BFF18D9E30600517526 /* CartOrderDetailCustomCell.m in Sources */,
+				8C1CF1F718D4F3EA007AB041 /* CategoryListViewController.m in Sources */,
+				8C1CF1C318D4DA21007AB041 /* AppDelegate.m in Sources */,
+				8C40DB6818D788D900555039 /* CartModelManger.m in Sources */,
+				8C1CF1F918D4F3EA007AB041 /* MainTabBarViewController.m in Sources */,
+				ABCE2BF218D9D0EC00517526 /* Cart.m in Sources */,
+				8C1CF1FB18D4F3EA007AB041 /* ProductDetailViewController.m in Sources */,
+				8C1CF22518D5A1E7007AB041 /* Utility.m in Sources */,
+				8C1CF19218D4D742007AB041 /* main.m in Sources */,
+				8C1CF1F518D4F3EA007AB041 /* CartDetailViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C1CF19F18D4D746007AB041 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C1CF1B118D4D747007AB041 /* Good_Home_ShopTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8C1CF1A918D4D746007AB041 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8C1CF18118D4D741007AB041 /* Good Home Shop */;
+			targetProxy = 8C1CF1A818D4D746007AB041 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8C1CF18E18D4D742007AB041 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8C1CF18F18D4D742007AB041 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		8C1CF1AD18D4D747007AB041 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8C1CF1AE18D4D747007AB041 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8C1CF1B218D4D747007AB041 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		8C1CF1B318D4D747007AB041 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8C1CF1B518D4D747007AB041 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Good Home Shop/Good Home Shop-Prefix.pch";
+				INFOPLIST_FILE = "Good Home Shop/Good Home Shop-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		8C1CF1B618D4D747007AB041 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Good Home Shop/Good Home Shop-Prefix.pch";
+				INFOPLIST_FILE = "Good Home Shop/Good Home Shop-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		8C1CF1B818D4D747007AB041 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Good Home Shop.app/Good Home Shop";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Good Home Shop/Good Home Shop-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Good Home ShopTests/Good Home ShopTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		8C1CF1B918D4D747007AB041 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Good Home Shop.app/Good Home Shop";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Good Home Shop/Good Home Shop-Prefix.pch";
+				INFOPLIST_FILE = "Good Home ShopTests/Good Home ShopTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8C1CF17D18D4D741007AB041 /* Build configuration list for PBXProject "Good Home Shop" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8C1CF1B218D4D747007AB041 /* Debug */,
+				8C1CF1B318D4D747007AB041 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8C1CF1B418D4D747007AB041 /* Build configuration list for PBXNativeTarget "Good Home Shop" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8C1CF1B518D4D747007AB041 /* Debug */,
+				8C1CF1B618D4D747007AB041 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8C1CF1B718D4D747007AB041 /* Build configuration list for PBXNativeTarget "Good Home ShopTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8C1CF1B818D4D747007AB041 /* Debug */,
+				8C1CF1B918D4D747007AB041 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		8C40DB5E18D7856A00555039 /* HomeShop.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				8C40DB5F18D7856A00555039 /* HomeShop.xcdatamodel */,
+			);
+			currentVersion = 8C40DB5F18D7856A00555039 /* HomeShop.xcdatamodel */;
+			path = HomeShop.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 8C1CF17A18D4D741007AB041 /* Project object */;
+}

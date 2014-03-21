@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Electronics</key>
+	<dict>
+		<key>Microwave</key>
+		<array>
+			<dict>
+				<key>Name</key>
+				<string>LG</string>
+				<key>Price</key>
+				<integer>4500</integer>
+				<key>Image</key>
+				<string>lgmicrowave.jpg</string>
+				<key>ProductID</key>
+				<string>EM000</string>
+			</dict>
+			<dict>
+				<key>Name</key>
+				<string>LG</string>
+				<key>Price</key>
+				<integer>4500</integer>
+				<key>Image</key>
+				<string>lgmicrowave</string>
+				<key>ProductID</key>
+				<string>EM001</string>
+			</dict>
+			<dict>
+				<key>Name</key>
+				<string>LG</string>
+				<key>Price</key>
+				<integer>4500</integer>
+				<key>Image</key>
+				<string>lgmicrowave</string>
+				<key>ProductID</key>
+				<string>EM002</string>
+			</dict>
+		</array>
+		<key>Television</key>
+		<array>
+			<dict>
+				<key>Name</key>
+				<string>LG TV</string>
+				<key>Price</key>
+				<integer>14500</integer>
+				<key>Image</key>
+				<string>lg_TV</string>
+				<key>ProductID</key>
+				<string>ET000</string>
+			</dict>
+			<dict>
+				<key>Name</key>
+				<string>Sharp TV</string>
+				<key>Price</key>
+				<integer>8000</integer>
+				<key>Image</key>
+				<string>sharp_TV</string>
+				<key>ProductID</key>
+				<string>ET001</string>
+			</dict>
+			<dict>
+				<key>Name</key>
+				<string>Finetel TV</string>
+				<key>Price</key>
+				<integer>13000</integer>
+				<key>Image</key>
+				<string>finetel_TV.jpg</string>
+				<key>ProductID</key>
+				<string>ET002</string>
+			</dict>
+		</array>
+		<key>Vaccum Cleaner</key>
+		<array>
+			<dict>
+				<key>Name</key>
+				<string>Dyson Vaccum Cleaner</string>
+				<key>Price</key>
+				<integer>4500</integer>
+				<key>Image</key>
+				<string>dyson_vaccumC</string>
+				<key>ProductID</key>
+				<string>EV000</string>
+			</dict>
+			<dict>
+				<key>Name</key>
+				<string>Eureka Vaccum Cleaner</string>
+				<key>Price</key>
+				<integer>6700</integer>
+				<key>Image</key>
+				<string>eureka_VaccumC.jpg</string>
+				<key>ProductID</key>
+				<string>EV001</string>
+			</dict>
+			<dict>
+				<key>Name</key>
+				<string>Panasonic Vaccum Cleaner</string>
+				<key>Price</key>
+				<integer>7600</integer>
+				<key>Image</key>
+				<string>panasonic_vacuumC</string>
+				<key>ProductID</key>
+				<string>EV002</string>
+			</dict>
+		</array>
+	</dict>
+	<key>Furniture</key>
+	<dict>
+		<key>Table</key>
+		<array>
+			<dict>
+				<key>Name</key>
+				<string>Centre Table</string>
+				<key>Price</key>
+				<string>3500</string>
+				<key>ProductID</key>
+				<string>FT000</string>
+				<key>Image</key>
+				<string>centre_table</string>
+			</dict>
+			<dict>
+				<key>Name</key>
+				<string>Study Table</string>
+				<key>Price</key>
+				<string>5000</string>
+				<key>Image</key>
+				<string>study_table.jpg</string>
+				<key>ProductID</key>
+				<string>FT001</string>
+			</dict>
+			<dict>
+				<key>Name</key>
+				<string>Dinning Table</string>
+				<key>Price</key>
+				<string>8000</string>
+				<key>Image</key>
+				<string>dinning_Table.jpg</string>
+				<key>ProductID</key>
+				<string>FT002</string>
+			</dict>
+		</array>
+		<key>Chair</key>
+		<array>
+			<dict>
+				<key>Name</key>
+				<string>Office Chair</string>
+				<key>Price</key>
+				<string>2800</string>
+				<key>Image</key>
+				<string>office_Chair.jpg</string>
+				<key>ProductID</key>
+				<string>FC000</string>
+			</dict>
+			<dict>
+				<key>Name</key>
+				<string>Wooden Chair</string>
+				<key>Price</key>
+				<string>2200</string>
+				<key>Image</key>
+				<string>wooden_Chair.jpg</string>
+				<key>ProductID</key>
+				<string>FC001</string>
+			</dict>
+			<dict>
+				<key>Name</key>
+				<string>Steel Chair</string>
+				<key>Price</key>
+				<string>600</string>
+				<key>Image</key>
+				<string>steel_chair.jpg</string>
+				<key>ProductID</key>
+				<string>FC002</string>
+			</dict>
+		</array>
+		<key>Almirah</key>
+		<array>
+			<dict>
+				<key>Name</key>
+				<string>Three Door Almirah</string>
+				<key>Price</key>
+				<string>5300</string>
+				<key>Image</key>
+				<string>threedoor_Almirah.jpg</string>
+				<key>ProductID</key>
+				<string>FA000</string>
+			</dict>
+			<dict>
+				<key>Name</key>
+				<string>Wooden Almirah</string>
+				<key>Price</key>
+				<string>3600</string>
+				<key>Image</key>
+				<string>wooden_Almirah.jpg</string>
+				<key>ProductID</key>
+				<string>FA001</string>
+			</dict>
+			<dict>
+				<key>Name</key>
+				<string>Steel Almirah</string>
+				<key>Price</key>
+				<string>7000</string>
+				<key>Image</key>
+				<string>steel_Almirah.jpg</string>
+				<key>ProductID</key>
+				<string>FA002</string>
+			</dict>
+		</array>
+	</dict>
+</dict>
+</plist>
