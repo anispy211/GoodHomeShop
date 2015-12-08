@@ -721,11 +721,13 @@
 		8C1CF1B518D4D747007AB041 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Zensar Technologies Ltd";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Good Home Shop/Good Home Shop-Prefix.pch";
 				INFOPLIST_FILE = "Good Home Shop/Good Home Shop-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "fdfba55f-3e79-4ea4-a136-774b8e950ccd";
 				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
@@ -734,11 +736,13 @@
 		8C1CF1B618D4D747007AB041 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Zensar Technologies Ltd";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Good Home Shop/Good Home Shop-Prefix.pch";
 				INFOPLIST_FILE = "Good Home Shop/Good Home Shop-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "fdfba55f-3e79-4ea4-a136-774b8e950ccd";
 				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};

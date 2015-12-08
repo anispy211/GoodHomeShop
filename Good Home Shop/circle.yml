@@ -1,0 +1,17 @@
+machine:
+  environment:
+    XCODE_SCHEME: Good Home Shop
+    XCODE_WORKSPACE: Good Home Shop.xcodeproj
+    DEVELOPER_NAME: 'iPhone Distribution: ZensarDistiribution (S7QCGMNJX5)'
+    APPNAME: CircleCI-Sample
+    PROFILE_UUID: fdfba55f-3e79-4ea4-a136-774b8e950ccd
+    TESTFLIGHT_DIST_LIST: your-dist-list-name
+deployment:
+  testflight:
+    branch: master
+    commands:
+      - ./scripts/add-key.sh
+      - ./scripts/testflight.sh
+      - ./scripts/remove-key.sh
+
+
